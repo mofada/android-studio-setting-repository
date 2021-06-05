@@ -1,0 +1,26 @@
+<templateSet group="Custom">
+  <template name="fada" value="@author $authod$&#10;* @email fada@mofada.cn &#10;* @date $date$ &#10;* @description $description$" description="注释" toReformat="false" toShortenFQNames="true">
+    <variable name="authod" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="KOTLIN_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="sin" value="private static volatile $class$ sInstance;&#10;&#10;private $class$() {&#10;}&#10;&#10;public static $class$ getInstance() {&#10;    synchronized ($class$.class) {&#10;        if (sInstance == null) {&#10;            sInstance = new $class$();&#10;        }&#10;    }&#10;    return sInstance;&#10;}" description="单例模式" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="starter" value="@JvmStatic&#10;fun start(context: android.content.Context) {&#10;    val starter: android.content.Intent =  Intent (context, $ACTIVITY$::class.java)&#10;    starter.putExtra($CURSOR$)&#10;    context.startActivity(starter)&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTIVITY" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_COMMENT" value="true" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

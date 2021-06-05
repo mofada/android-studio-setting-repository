@@ -1,0 +1,86 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2019-10-08T10:15:01</property>
+    <property name="ide">AndroidStudio</property>
+    <property name="ideVersion">3.6.0.12</property>
+    <property name="modified">2019-10-08T11:19:15</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="FLUTTER_LOG_CONFIG_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="99cc00" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_FINER_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="33b5e5" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_FINEST_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="33b5e5" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_FINE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="99cc00" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_INFO_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffbb33" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_NONE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_SEVERE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="aa66cc" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_SHOUT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="aa66cc" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ff4444" />
+      </value>
+    </option>
+    <option name="LOGCAT_ASSERT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="aa66cc" />
+      </value>
+    </option>
+    <option name="LOGCAT_DEBUG_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="33b5e5" />
+      </value>
+    </option>
+    <option name="LOGCAT_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ff4444" />
+      </value>
+    </option>
+    <option name="LOGCAT_INFO_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="99cc00" />
+      </value>
+    </option>
+    <option name="LOGCAT_VERBOSE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="LOGCAT_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffbb33" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
