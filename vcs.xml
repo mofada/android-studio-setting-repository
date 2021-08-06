@@ -30,6 +30,10 @@
           <option name="url" value="https://github.com/firebase/quickstart-android.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://139.196.37.215/BoBaoGe/BoBaoGe_Android.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="F:\AndroidStudio" />
